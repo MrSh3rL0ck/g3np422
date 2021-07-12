@@ -1,3 +1,3 @@
 # g3np422
-Generador de contraseñas alteatorias.
+Generador de contraseñas aleatorias.
 V.1.0
