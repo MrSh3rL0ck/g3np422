@@ -2,9 +2,9 @@
 -Generador de contraseñas aleatorias V.1.0
 
 # Requerimientos
--Verificar que esta instalado python
+-Verificar que cuenten con  python instalado
 
--Verificar que esta instalado pip werkzeug: pip list o pip3 list
+-Verificar que cuenten con  pip werkzeug instalado: pip list o pip3 list
 
 -Instalar pip werkzeug: sudo pip install werkzeug o pip3 install werkzeug
 
