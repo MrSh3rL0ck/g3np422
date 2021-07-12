@@ -23,13 +23,13 @@ by: Mr.Sh3rl0ck [R4.Sh3.D3] [OMHE]
 """
 )
 
-# Variables
+# Variables, descomentar si se requiere agregar letras y  simbolos.
 # minus = "abcdefghijklmnñopqrstuvwxyz"
 # mayus = minus.upper()
 # simbolos =
 numeros = "123456789"
 
-# define que elementos conformaran contraseña
+# define que elementos conformaran la contraseña
 base = numeros  # +minus+mayus+simbolos
 # define longitud de password
 longitud = 8
@@ -39,9 +39,9 @@ for _ in range(5):
    muestra = random.sample(base, longitud)
    password = "".join(muestra)
 
-    #encripta password, comentar si solo se requiere contraseña sin enctiptar
+    #encripta password, comentar si solo se requiere contraseña sin encriptar
    password_encriptado = generate_password_hash(password)
    print("{} ▬▶{}".format(password, password_encriptado))
 
-   #Descomentar si solo se requieres contraseña sin encriptar
+   #Descomentar si solo se requiere contraseña sin encriptar
    # print(password)
