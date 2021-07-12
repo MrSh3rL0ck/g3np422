@@ -8,4 +8,5 @@
 # Uso
 -python g3np422.py  
 -python3 g3np422.py
+
 -La opción de encriptacion viene activada por default dentro del código pueden desactivarla y customizar las variables para generar passwords de longitud más larga, alfanuméricos, con signos  etc.
